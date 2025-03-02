@@ -1,0 +1,17 @@
+{
+  "name": "fp-lab3",
+  "scripts": {
+    "start": "yarn build && node ./.build/script.js",
+    "build": "tsc ./src/script.ts --outdir ./.build",
+    "build:watch": "tsc ./src/script.ts --watch --outdir ./.build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "yarn@4.3.1"
+}
